@@ -1,14 +1,21 @@
-// program to generate a multiplication table
+let a = 0;
+for(let n = 0; n <=100; n++){
+      if(n % 2 == 0){
+            a = n + a;
+      };
+     
+} console.log(a)
 
-// take input from the user
-const number = parseInt(prompt('Enter an integer: '));
+let b = 10;
+for(let i = 1; i <= 50; i++){
+      if(i==10)
+      break;
+      console.log(i)
+}
 
-//creating a multiplication table
-for(let i = 1; i <= 10; i++) {
-
-    // multiply i with number
-    const result = i * number;
-
-    // display the result
-    console.log(`${number} * ${i} = ${result}`);
+let c = 30;
+for(let j = 1; j <= 100; j++){
+      if(j !== c)
+      continue
+      console.log(j)
 }
