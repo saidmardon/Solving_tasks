@@ -41,12 +41,15 @@ function maxNumber(arr){
 console.log(maxNumber(arrNumbers))
 //Создайте функцию который находит максимальное число массива; 
 
-let name = "test"
-function reverseString(){
-      name.split
+let test = "12345"
+function reverse(str){
+      let reverseStr = "";
+      for(let i = str.length - 1; i >= 0; i--){
+            reverseStr += str[i]; 
+      }
+      return reverseStr;
 }
-
-
+console.log(reverse(test))//54321
 //Создайте функцию который переворачивает значение стринга 
-//Например: значение  = ‘test’; после функции значение = ’tset’
+//Например: значение  = ‘12345’; после функции значение = ’54321’
 

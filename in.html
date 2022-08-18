@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <p class="pas">Параграф</p>
+
+     <input type="button" onclick="countRabbits()" value="Считать кроликов!">
+
+     
+   <script>
+    document.body.style.background = "green";
+    setTimeout(() => document.body.style.background = "red", 1000);
+
+    let variable = document.querySelector("#man")
+    variable.style.color = "blue";
+    variable.style.fontSize = "100px" 
+  
+    let text = document.querySelector(".pas")
+    text.innerHTML = "Said"
+
+    function countRabbits() {
+    for(let i=1; i<=3; i++) {
+      alert("Кролик номер " + i);
+    }
+  }
+
+  </script>
+</body>
+</html>
